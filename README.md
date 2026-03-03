@@ -140,4 +140,4 @@ This sample repo reflects how VRQA Labs approaches API automation projects:
 
 If your team needs a robust Karate framework (or migration from RestAssured, Postman, or SoapUI), VRQA Labs offers full‑service implementation, training, and maintenance.
 
-Contact us at [**connect.vrqalabs@outlook.com**] to discuss your automation needs.
+Contact us at **connect.vrqalabs@outlook.com** to discuss your automation needs.
