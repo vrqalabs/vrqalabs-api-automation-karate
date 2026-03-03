@@ -51,14 +51,20 @@ target/cucumber-reports/cucumber-html-reports/overview-features.html
 │   └── test/
 │       └── java/
 │           ├── TestRunner.java              # Global parallel runner (entry point)
-│           └── eventhub/
-│               └── auth/
-│                   ├── register.feature     # User registration scenarios
-│                   ├── login.feature        # User login + token extraction
-│                   └── me.feature           # Authenticated profile fetch
+│           ├── karate-config.js             # Global Karate configuration
+│           ├── logback-test.xml             # Logging configuration for tests
+│           └── features/
+│               ├── register/
+│               │   ├── register.feature     # User registration scenarios
+│               ├── login/
+│               │   ├── login.feature        # User login + token extraction
+│               ├── me/
+│               │   ├── me.feature           # Authenticated profile fetch
+│
 ├── target/
 │   ├── karate-reports/                      # Raw JSON output from Karate
 │   └── cucumber-reports/                    # Masterthought HTML reports
+│
 ├── pom.xml                                  # Maven build + dependency config
 └── README.md
 ```
